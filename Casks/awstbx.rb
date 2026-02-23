@@ -3,7 +3,7 @@ cask "awstbx" do
   name "awstbx"
   desc "Unified CLI for AWS infrastructure automation"
   homepage "https://github.com/towardsthecloud/aws-toolbox"
-  version "1.1.0"
+  version "1.1.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "awstbx" do
   on_macos do
     on_intel do
       url "https://github.com/towardsthecloud/aws-toolbox/releases/download/v#{version}/awstbx_#{version}_darwin_amd64.tar.gz"
-      sha256 "a76dd91f4590fc97e5c2c638793a5d5e8e62f1b455e57301e7481563cf5d2495"
+      sha256 "054a9f1e9dab0784eec02e0f705f30448a34f455e7e885a4e5077530d71f1169"
     end
     on_arm do
       url "https://github.com/towardsthecloud/aws-toolbox/releases/download/v#{version}/awstbx_#{version}_darwin_arm64.tar.gz"
-      sha256 "b907ed6ac0ef48e8a228cb033f10dfcede22f12eb6dde2a53e4c061b2110aeb7"
+      sha256 "4227f0a7dca574267cdb691b7c1ac889a5c00f1a7883ffa6852a3a8c49166de5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/towardsthecloud/aws-toolbox/releases/download/v#{version}/awstbx_#{version}_linux_amd64.tar.gz"
-      sha256 "ff2b0aea306f1fa5616fcfd1efcfe0428068c9f8e33451e096ec96973f271b9a"
+      sha256 "bdd27d214073657cc836c2b17edc436253e509d898d33422f936a6e358f4dffe"
     end
     on_arm do
       url "https://github.com/towardsthecloud/aws-toolbox/releases/download/v#{version}/awstbx_#{version}_linux_arm64.tar.gz"
-      sha256 "e1f4bba9c0892ecbb7dfc981b673b73f230a63f85c089e3098a75a7b591dfdc5"
+      sha256 "9c480f384d82123071e536c6808828517ef39dd13f8bd8cc2b0c34565cf9eced"
     end
   end
 
