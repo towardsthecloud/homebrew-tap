@@ -21,5 +21,5 @@ brew install towardsthecloud/tap/cloudburn
 Unified CLI for AWS infrastructure automation.
 
 ```bash
-brew install --cask towardsthecloud/tap/awstbx
+brew install towardsthecloud/tap/awstbx
 ```
