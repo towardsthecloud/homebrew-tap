@@ -1,8 +1,8 @@
 class Cloudburn < Formula
   desc "CLI for cloud cost optimization"
   homepage "https://cloudburn.io/docs"
-  url "https://registry.npmjs.org/cloudburn/-/cloudburn-0.9.5.tgz"
-  sha256 "e55ae87e2f3c7d08a5d7c01b5d5d07e8d8e0877dd09946d90f6214573211a02d"
+  url "https://registry.npmjs.org/cloudburn/-/cloudburn-0.9.6.tgz"
+  sha256 "742f680776deab84bcdf45c8e84055789566d5f3978bc8a3e4a8213dd940773b"
   license "Apache-2.0"
 
   depends_on "node"
