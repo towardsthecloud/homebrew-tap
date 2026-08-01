@@ -5,21 +5,21 @@
 class Awstbx < Formula
   desc "Unified CLI for AWS infrastructure automation"
   homepage "https://github.com/towardsthecloud/aws-toolbox"
-  version "0.0.1"
+  version "0.0.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/towardsthecloud/aws-toolbox/releases/download/v0.0.1/awstbx_0.0.1_darwin_amd64.tar.gz"
-      sha256 "f472f5c1bb9a9ff83d4eee789224580133bef9b70744af5521d5d58d3db06c79"
+      url "https://github.com/towardsthecloud/aws-toolbox/releases/download/v0.0.2/awstbx_0.0.2_darwin_amd64.tar.gz"
+      sha256 "f7016517dbb3f040a1abe46ee38520101c297184691974d0fd79dca8e1b806f3"
 
       define_method(:install) do
         bin.install "awstbx"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/towardsthecloud/aws-toolbox/releases/download/v0.0.1/awstbx_0.0.1_darwin_arm64.tar.gz"
-      sha256 "3e2669fbfd105fd8894a41b36253915289f01c49e9558db142762a0408ba0cdb"
+      url "https://github.com/towardsthecloud/aws-toolbox/releases/download/v0.0.2/awstbx_0.0.2_darwin_arm64.tar.gz"
+      sha256 "88ab61d9aa837bf0eb3f03f6c159abf436dca13ece75e5d015cba03c5364fba8"
 
       define_method(:install) do
         bin.install "awstbx"
@@ -29,15 +29,15 @@ class Awstbx < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/towardsthecloud/aws-toolbox/releases/download/v0.0.1/awstbx_0.0.1_linux_amd64.tar.gz"
-      sha256 "effd2fc765ea6626e373e8e150edd65ed1cb7e9e28cfb019b80de9f4dfbbc500"
+      url "https://github.com/towardsthecloud/aws-toolbox/releases/download/v0.0.2/awstbx_0.0.2_linux_amd64.tar.gz"
+      sha256 "b73e9c95505006564e19aa956cfc7b902707bbb5ca3f76a28d5818c93779de50"
       define_method(:install) do
         bin.install "awstbx"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/towardsthecloud/aws-toolbox/releases/download/v0.0.1/awstbx_0.0.1_linux_arm64.tar.gz"
-      sha256 "2f93fada9c1ea16ab2d96d9a0d05265133301a8ec0ffd5f0063b65535c7dffb8"
+      url "https://github.com/towardsthecloud/aws-toolbox/releases/download/v0.0.2/awstbx_0.0.2_linux_arm64.tar.gz"
+      sha256 "43378d40ee44ea6f65a26566b78f7dbbc39a3f25efd78480960b921a6ee8029e"
       define_method(:install) do
         bin.install "awstbx"
       end
